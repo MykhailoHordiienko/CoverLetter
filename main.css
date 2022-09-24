@@ -1,0 +1,43 @@
+body {
+	font-family: 'Montserrat',
+		sans-serif;
+	background-color: #E5E5E5;
+	box-sizing: border-box;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	
+}
+
+a {
+	text-decoration: none;
+	color: rgb(0, 0, 200);
+}
+
+main {
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+	padding: 65px 50px;
+}
+
+@media screen and (max-width: 600px) {
+	main {
+		display: block;
+		width: 599px;
+	}
+}
+
+.main-title {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.description	{
+	text-align: right;
+
+	
+}
